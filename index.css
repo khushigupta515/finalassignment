@@ -1,0 +1,165 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav {
+    padding: 1%;
+    margin: 1%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: grey;
+    padding: 1%;
+    margin: 0.2%;
+}
+
+nav a:hover
+{
+    color:black;
+}
+img#logoimg
+{
+    height: 40px;
+    object-fit: cover
+    
+}
+
+div#right {
+    display: inline-block;
+    width: 68%;
+    text-align: right;
+}
+div#left {
+    display: inline-block;
+    width: 28%;
+    
+}
+nav button {
+    background: #54C571;
+    border: none;
+    padding: 1%;
+    width: 90px;
+    border-radius: 12px;
+    color:white;
+    font-weight: bolder;
+}
+div.column
+{
+    display: inline-flex;
+    margin: 1%;
+}
+div.column img {
+    height: 150px;
+    padding: 1%;
+    margin: 1%;
+}
+.row {
+    text-align: center;
+}
+div.column img {
+    height: 150px;
+    padding: 1%;
+    margin: 1%;
+}
+div#divwithimages img {
+    height: 120px;
+}
+div#divwithimages{
+    background: #EBF4FA;
+}
+p{
+    font-size: smaller;
+    font-weight: 600;
+    color: #3D3C3A;
+}
+.column h1 {
+    font-size: small;
+    font-weight: 750;
+}
+figcaption {
+    font-size: small;
+    opacity: 0.4;
+    font-weight: bolder;
+}
+.column ul {
+    list-style-type: none;
+    font-size: small;
+    text-align: left;
+    opacity: 0.7;
+}
+.socialmediacolumn
+{
+    display:inline-block;
+}
+.fa {
+    font-size: 40px;
+}
+div#staticdiv img {
+    height: 250px;
+}
+div#staticdiv .Column {
+    display: inline-block;
+    width: 45%;
+    
+}
+#Columnwithpicture
+{
+    background: #EBF4FA;
+    text-align: center;
+}
+div#staticdiv .Column h1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+}
+div#staticdiv .Column p {
+    font-size: 20px;
+    opacity: 0.5;
+}
+div#staticdiv input[type="submit"] 
+{
+    width: 80%;
+    height: 35;
+    padding: 1%;
+    margin: 2%;
+    color: white;
+    background: #54C571;
+    border: none;
+    font-weight: bolder;
+}
+    
+
+div#staticdiv input[type="text"] 
+{
+    width: 80%;
+    height: 35;
+    padding: 1%;
+    margin: 2%;
+}
+div#staticdiv .Column div{
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+div#staticdiv .Column #terms{
+    opacity: 1;
+    font-size: 10px;
+    text-align: center;
+}
+
+#staticdiv{
+    background: white;
+    width: 800px;
+    position: fixed;
+    z-index: 1;
+    left: 150px;
+    top: 150;
+    
+    
+}
+    
